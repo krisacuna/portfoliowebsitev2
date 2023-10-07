@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
@@ -34,7 +34,16 @@ export const links = [
   },
 ] as const;
 
- export const experiencesData : any = [
+type ExperienceType = Readonly<Array<{
+  title?: string;
+  linkedTitle?: string;
+  location: string;
+  description: string;
+  icon: ReactElement;
+  date: string;
+}>>;
+
+ export const experiencesData : ExperienceType = [
   {
     title: "Expected graduation",
     location: "University of Nevada, Las Vegas",
