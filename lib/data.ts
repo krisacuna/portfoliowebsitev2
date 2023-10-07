@@ -34,7 +34,7 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+ export const experiencesData : any = [
   {
     title: "Expected graduation",
     location: "University of Nevada, Las Vegas",
