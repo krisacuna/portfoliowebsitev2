@@ -63,7 +63,7 @@ type ExperienceType = Readonly<Array<{
   {
     linkedTitle: "Team Member - Bosch Future Mobility Challenge",
     location: "Las Vegas, NV & Cluj-Napoca, Romania",
-    description: "",
+    description: "Over a 10-month period, I collaborated with Master's and PhD students to develop a 1/10th scale autonomous RC vehicle. In June 2022, I traveled to Cluj, Romania, under the guidance of Dr. Brendan Morris from UNLV's Transportation Research Department.",
     icon: React.createElement(FaReact),
     date: "Summer 2022",
   },
