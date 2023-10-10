@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import frame from "@/public/frame.png";
 import connect4 from "@/public/connect4.png";
 
 export const links = [
@@ -72,9 +72,9 @@ type ExperienceType = Readonly<Array<{
 
 export const projectsData = [
   {
-    title: "Current Project : Grammar Interpreter",
+    title: "Current Project: Grammar Interpreter",
     description:
-      "Working on an interpreter to create lexical rules and grammars.",
+      "Creating an interpreter for a language and developing a parser to construct a syntax tree and implement parsing techniques.",
     tags: ["JAVA", "ANTLR", "IntelliJ IDE"],
     imageUrl: corpcommentImg,
   },
@@ -86,26 +86,25 @@ export const projectsData = [
     imageUrl: connect4,
   },
   {
-    title: "Word Analytics",
+    title: "SpellChecker",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Spell Checker program that uses a dictionary .txt file containing over 50,000 predefined English words using data structures like Vectors and Hash Maps at its core.",
+    tags: ["C++"],
+    imageUrl: frame,
   },
 
 ] as const;
 
 export const skillsData = [
   "C++",
-  "CSS",
+  "C",
+  "BASH",
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
-  "GitHub",
-  "X86 / MIPS",
+  "ASSEMBLY x86",
+  "MIPS",
   "Antlr",
-  "BASH",
-  "Framer Motion",
+  "Visual Studio Code",
+  "GitHub",
 ] as const;

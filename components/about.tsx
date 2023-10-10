@@ -29,13 +29,13 @@ export default function About() {
       <p>
         I have a strong interest in full-stack development, where I find great
         satisfaction in problem-solving. My core tech stack includes <span className="font-bold">C++, React,
-        Next.js, Node.js, and TypeScript.</span> Currently, I am
+        Next.js, and TypeScript.</span> Currently, I am
         seeking an internship in software development to apply my skills and
         contribute to meaningful projects.
       </p>
       <p>
         Outside of coding, I'm passionate about fitness, regularly hitting the
-        gym, and practicing hot yoga for balance and well-being. I'm also a dog
+        gym, playing pickle ball, and practicing hot yoga well-being. I'm also a dog
         enthusiast and enjoy spending quality time with my furry companion. My
         curiosity extends beyond programming, as I'm always eager to learn new
         things and broaden my horizons.
