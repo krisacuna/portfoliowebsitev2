@@ -102,7 +102,7 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "ASSEMBLY x86",
+  "Assembly x86",
   "MIPS",
   "Antlr",
   "Visual Studio Code",

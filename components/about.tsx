@@ -35,7 +35,7 @@ export default function About() {
       </p>
       <p>
         Outside of coding, I'm passionate about fitness, regularly hitting the
-        gym, playing pickle ball, and practicing hot yoga well-being. I'm also a dog
+        gym, playing pickleball, and practicing hot yoga for well-being. I'm also a dog
         enthusiast and enjoy spending quality time with my furry companion. My
         curiosity extends beyond programming, as I'm always eager to learn new
         things and broaden my horizons.
