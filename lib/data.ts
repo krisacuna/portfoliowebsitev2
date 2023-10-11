@@ -6,6 +6,8 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import frame from "@/public/frame.png";
 import connect4 from "@/public/connect4.png";
+import corpcommentImg1 from "@/public/corpcomment1.png";
+
 
 export const links = [
   {
@@ -76,7 +78,7 @@ export const projectsData = [
     description:
       "Creating an interpreter for a language and developing a parser to construct a syntax tree and implement parsing techniques.",
     tags: ["JAVA", "ANTLR", "IntelliJ IDE"],
-    imageUrl: corpcommentImg,
+    imageUrl: corpcommentImg1,
   },
   {
     title: "ConnectFour",
